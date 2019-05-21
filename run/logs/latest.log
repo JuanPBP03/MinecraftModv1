@@ -1,0 +1,90 @@
+[23:04:18] [main/INFO]: Setting user: Player723
+[23:04:22] [main/WARN]: Skipping bad option: lastServer:
+[23:04:22] [main/INFO]: LWJGL Version: 2.9.4
+[23:04:26] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My First Mod
+[23:04:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:04:29] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[23:04:29] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:04:30] [Thread-5/INFO]: OpenAL initialized.
+[23:04:30] [Sound Library Loader/INFO]: Sound engine started
+[23:04:35] [main/WARN]: Texture mfm:textures/items/tutorialitem.png with size 225x225 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
+[23:04:35] [main/INFO]: Created: 1024x512 textures-atlas
+[23:04:37] [main/WARN]: Skipping bad option: lastServer:
+[23:04:37] [main/INFO]: Narrator library for x64 successfully loaded
+[23:04:38] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:05:15] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[23:05:15] [Server thread/INFO]: Generating keypair
+[23:05:16] [Server thread/INFO]: Loaded 488 advancements
+[23:05:16] [Server thread/INFO]: Preparing start region for level 0
+[23:05:17] [Server thread/INFO]: Preparing spawn area: 57%
+[23:05:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:05:18] [Server thread/INFO]: Player723[local:E:e75f0571] logged in with entity id 493 at (-9.527246888859313, 70.0, 215.12168988474815)
+[23:05:18] [Server thread/INFO]: Player723 joined the game
+[23:05:20] [Server thread/INFO]: Saving and pausing game...
+[23:05:20] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:05:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:05:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:05:20] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3ae08495[id=b77729bf-eef8-37d7-9aff-2a869ec2a3e6,name=Player723,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3170) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[23:05:23] [Server thread/INFO]: Saving and pausing game...
+[23:05:23] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:05:23] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:05:23] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:05:29] [Server thread/INFO]: Player723 has made the advancement [Isn't It Iron Pick]
+[23:05:29] [main/INFO]: [CHAT] Player723 has made the advancement [Isn't It Iron Pick]
+[23:05:29] [main/INFO]: Loaded 8 advancements
+[23:05:34] [Server thread/INFO]: [Player723: Set own game mode to Survival Mode]
+[23:05:34] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[23:05:48] [main/INFO]: [CHAT] mfm:rubyore, mfm:testitem, mfm:tutorialitem
+[23:05:49] [Server thread/INFO]: [Player723: Given [Ruby Ore] * 1 to Player723]
+[23:05:49] [main/INFO]: [CHAT] Given [Ruby Ore] * 1 to Player723
+[23:05:59] [Server thread/INFO]: Saving and pausing game...
+[23:05:59] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:06:00] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:06:00] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:06:22] [Server thread/INFO]: [Player723: Set own game mode to Creative Mode]
+[23:06:22] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[23:06:39] [Server thread/INFO]: [Player723: Set own game mode to Survival Mode]
+[23:06:39] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[23:06:44] [Server thread/INFO]: [Player723: Set own game mode to Creative Mode]
+[23:06:44] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[23:06:47] [Server thread/INFO]: [Player723: Set own game mode to Survival Mode]
+[23:06:47] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[23:06:51] [Server thread/INFO]: [Player723: Given [Ruby Ore] * 23 to Player723]
+[23:06:51] [main/INFO]: [CHAT] Given [Ruby Ore] * 23 to Player723
+[23:07:32] [Server thread/INFO]: Saving and pausing game...
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:07:32] [Server thread/INFO]: Stopping server
+[23:07:32] [Server thread/INFO]: Saving players
+[23:07:32] [Server thread/INFO]: Player723 lost connection: Disconnected
+[23:07:32] [Server thread/INFO]: Player723 left the game
+[23:07:32] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[23:07:32] [Server thread/INFO]: Saving worlds
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:07:32] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:07:34] [main/INFO]: Stopping!
+[23:07:34] [main/INFO]: SoundSystem shutting down...
+[23:07:34] [main/WARN]: Author: Paul Lamb, www.paulscode.com

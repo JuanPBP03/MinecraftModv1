@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mfm",
+  "name": "My First Mod",
+  "description": "DESCRIPTION",
+  "version": "1.0",
+  "mcversion": "1.12",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["_Extremis_"],
+  "credits": "Suppergerrie2's tutorial and the internet!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

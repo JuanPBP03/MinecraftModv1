@@ -1,0 +1,28 @@
+[22:05:46] [main/INFO]: Setting user: Player43
+[22:05:49] [main/WARN]: Skipping bad option: lastServer:
+[22:05:49] [main/INFO]: LWJGL Version: 2.9.4
+[22:05:53] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My First Mod
+[22:05:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:05:57] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[22:05:57] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:05:57] [Thread-5/INFO]: OpenAL initialized.
+[22:05:57] [Sound Library Loader/INFO]: Sound engine started
+[22:06:02] [main/WARN]: Texture mfm:textures/items/tutorialitem.png with size 225x225 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
+[22:06:02] [main/INFO]: Created: 1024x512 textures-atlas
+[22:06:04] [main/WARN]: Skipping bad option: lastServer:
+[22:06:04] [main/INFO]: Narrator library for x64 successfully loaded
+[22:06:05] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[22:06:17] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[22:06:17] [Server thread/INFO]: Generating keypair
+[22:06:18] [Server thread/INFO]: Loaded 488 advancements
+[22:06:18] [Server thread/INFO]: Preparing start region for level 0
+[22:06:19] [Server thread/INFO]: Preparing spawn area: 57%
+[22:06:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:06:21] [Server thread/INFO]: Player43[local:E:fe3a1745] logged in with entity id 432 at (-6.83940444439155, 70.0, 216.82381804301104)
+[22:06:21] [Server thread/INFO]: Player43 joined the game
+[22:06:22] [Server thread/INFO]: Saving and pausing game...
+[22:06:22] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[22:06:23] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[22:06:23] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[22:07:07] [Server thread/INFO]: [Player43: Given [Tutorial Item] * 1 to Player43]
+[22:07:07] [main/INFO]: [CHAT] Given [Tutorial Item] * 1 to Player43
